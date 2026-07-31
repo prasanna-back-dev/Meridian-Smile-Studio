@@ -1,0 +1,16 @@
+# Duplicate image files (originals kept in images/ folder)
+*.jpeg
+!images/*.jpg
+
+# Open Design internal files
+.file-versions/
+*.artifact.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
